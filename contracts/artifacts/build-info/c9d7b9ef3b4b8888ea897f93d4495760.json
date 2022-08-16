@@ -1,0 +1,68 @@
+{
+	"id": "c9d7b9ef3b4b8888ea897f93d4495760",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.11",
+	"solcLongVersion": "0.8.11+commit.d7f03943",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"Users/ivan/solidity/testing/contracts/Payments.sol": {
+				"content": "// SPDX-License-Identifier: UNLICENSED\n\npragma solidity ^0.8.0;"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"Users/ivan/solidity/testing/contracts/Payments.sol": {
+				"ast": {
+					"absolutePath": "Users/ivan/solidity/testing/contracts/Payments.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "UNLICENSED",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "40:23:0"
+						}
+					],
+					"src": "40:23:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
